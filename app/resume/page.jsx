@@ -5,6 +5,7 @@ import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from "react-icons/f
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { FaWordpress } from "react-icons/fa6";
 import { motion } from 'framer-motion';
 import { ScrollArea } from '@radix-ui/react-scroll-area';
 //import { ScrollArea } from '@/components/ui/scroll-area';
@@ -13,7 +14,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 
 const about = {
   title: "About me",
-  description: "I am a dedicated and skilled front-end web developer and app developer with 3 years of experience in the tech industry. My expertise lies in creating dynamic, user-friendly web and mobile applications using a wide array of technologies. Technologies: React.js, Next.js, Tailwind CSS, Sass (SCSS), CSS, HTML, and JavaScript.",
+  description: "I am a dedicated and skilled front-end web developer and app developer with 3 years of experience in the tech industry. My expertise lies in creating dynamic, user-friendly web and mobile applications using a wide array of technologies. Technologies: React.js, Next.js, Tailwind CSS, Sass (SCSS), CSS, HTML, Wordpress and  JavaScript.",
   info: [
     { fieldName: "Name", fieldValue: ": Murad Hossain Chowdhury" },
     { fieldName: "Phone", fieldValue: ": 01538280537" },
@@ -30,11 +31,11 @@ const about = {
 const experience = {
   icon: " ",
   title: "My experience",
-  description: "Front-End Web Developer: As a skilled Front-End Web Developer with over 2.5 years of experience, I specialize in creating visually appealing, user-friendly, and responsive websites and web applications. I have a strong command of modern web technologies, including HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, and SCSS. My expertise lies in translating UI/UX designs into high-quality code, ensuring cross-browser compatibility, and optimizing web performance. I have a keen eye for design, a passion for improving user experiences, and a commitment to staying current with the latest industry trends. My experience extends to collaborating with designers, back-end developers, and stakeholders to deliver seamless and functional digital solutions.",
+  description: "Front-End Web Developer: As a skilled Front-End Web Developer with over 2.5 years of experience, I specialize in creating visually appealing, user-friendly, and responsive websites and web applications. I have a strong command of modern web technologies, including HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, Wordpress, and SCSS. My expertise lies in translating UI/UX designs into high-quality code, ensuring cross-browser compatibility, and optimizing web performance. I have a keen eye for design, a passion for improving user experiences, and a commitment to staying current with the latest industry trends. My experience extends to collaborating with designers, back-end developers, and stakeholders to deliver seamless and functional digital solutions.",
   items: [
-    { marketplace: "Upwork", position: "Front end web developer with app development", duration: "2020 to present" },
-    { marketplace: "Fiverr", position: "Front end web developer with app development", duration: "2020 to present" },
-    { marketplace: "Remote job", position: "Front end web developer", duration: "2021 to 2023" },
+    { marketplace: "Upwork", position: "Front end web developer with Wordpress and app development", duration: "2020 to present" },
+    { marketplace: "Fiverr", position: "Front end web developer with Wordpress and app development", duration: "2020 to present" },
+    { marketplace: "Remote job", position: "Front end web developer with Wordpress", duration: "2021 to 2023" },
   ],
 };
 
@@ -42,6 +43,7 @@ const skills = {
   title: "My skills",
   description: "I am passionate about creating engaging user experiences and continuously learning new technologies to enhance my development skills. Whether working on a team or independently, I am dedicated to delivering high-quality solutions that meet client needs and exceed expectations.",
   skillList: [
+    { icon: <FaWordpress />, name: "Wordpress" },
     { icon: <FaHtml5 />, name: "HTML 5" },
     { icon: <FaCss3 />, name: "CSS 3" },
     { icon: <FaJs />, name: "JavaScript" },
