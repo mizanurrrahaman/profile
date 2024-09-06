@@ -1,3 +1,4 @@
+
 import Photo from '@/components/Photo';
 import Socials from '@/components/Socials';
 import Image from 'next/image';
@@ -38,7 +39,7 @@ const Home = () => {
               </div>
           </div>
            <div className="order-1 xl:order-none mb-8 xl:mb-0"> 
-             <Photo/>  
+              <Photo/>
            </div>
         </div>
       </div>
@@ -49,8 +50,14 @@ const Home = () => {
 
 export default Home
 
-
 {/*
+  
+  
+
+
+
+
+
   import Image from "next/image";
   
   export default function Home() {
